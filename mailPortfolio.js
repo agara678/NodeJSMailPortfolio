@@ -1,9 +1,10 @@
+require('dotenv').config();
 const express = require('express');
 const nodemailer = require('nodemailer');
 const bodyParser = require('body-parser');
 
 const app = express();
-const port = 3001; // You can change the port as needed
+const port = process.env.PORT; // You can change the port as needed
 
 // Middleware to parse JSON in the request body
 app.use(bodyParser.json());

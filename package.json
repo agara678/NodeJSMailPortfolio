@@ -4,7 +4,7 @@
   "description": "",
   "main": "mailPortfolio.js",
   "scripts": {
-    "start": "node mailPortfolio.js --port=3001"
+    "start": "node mailPortfolio.js --port=$port"
   },
   "repository": {
     "type": "git",
@@ -18,6 +18,7 @@
   "homepage": "https://gitlab.com/sholat6waktu/nodemailportfolio#readme",
   "dependencies": {
     "body-parser": "^1.20.2",
+    "dotenv": "^16.3.1",
     "express": "^4.18.2",
     "nodemailer": "^6.9.7"
   }
