@@ -3,7 +3,7 @@ const nodemailer = require('nodemailer');
 const bodyParser = require('body-parser');
 
 const app = express();
-const port = 3000; // You can change the port as needed
+const port = 3001; // You can change the port as needed
 
 // Middleware to parse JSON in the request body
 app.use(bodyParser.json());
