@@ -9,6 +9,7 @@ const port = process.env.PORT; // You can change the port as needed
 // Middleware to parse JSON in the request body
 app.use(bodyParser.json());
 
+app.use(cors());
 // Set your email and password
 const senderEmail = 'dayatechmedia@gmail.com';
 const password = 'jjlbhtcrvjiebopt';
